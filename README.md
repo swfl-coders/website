@@ -9,18 +9,25 @@
 
 ## 🚀 Getting started
 
-1.  **Pull down this reposiory.**
+1.  **Pull down this repository.**
 
-    We need to see what happens when someone just pulls down the site and runs `gatsby develop`
+    On terminal: `git clone https://github.com/digitaldrk/temp-swfl-coders.git`
 
-1)  **Start developing.**
+2.  **Install Gatsby globally (if not installed yet).**
 
-    Navigate into your new site’s directory and start it up.
+    On terminal: `npm i -g gatsby-cli`
+
+3.  **Start developing.**
+
+    Navigate into project and start up.
 
     ```sh
-    cd my-hello-world-starter/
+    cd temp-swfl-coders
+    npm install
     gatsby develop
     ```
+
+    NOTE: Please don't commit `package-lock.json` unless you added any packages to the project
 
 1)  **Open the source code and start editing!**
 
