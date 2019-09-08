@@ -1,11 +1,11 @@
 import React from "react"
 import Link from "@material-ui/core/Link"
 import { makeStyles } from "@material-ui/core/styles"
-import MeetupIcon from "../assets/meetup-brands.svg"
-import SlackIcon from "../assets/slack-brands.svg"
-import FacebookIcon from "../assets/facebook-f-brands.svg"
-import GitHubIcon from "../assets/github-brands.svg"
-import TwitterIcon from "../assets/twitter-brands.svg"
+import MeetupIcon from "../assets/svg-logos/meetup-brands.svg"
+import SlackIcon from "../assets/svg-logos/slack-brands.svg"
+import FacebookIcon from "../assets/svg-logos/facebook-f-brands.svg"
+import GitHubIcon from "../assets/svg-logos/github-brands.svg"
+import TwitterIcon from "../assets/svg-logos/twitter-brands.svg"
 
 const useStyles = makeStyles(theme => ({
   socialMedia: {
