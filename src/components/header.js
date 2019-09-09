@@ -15,17 +15,19 @@ export default function Header() {
   const classes = useStyles()
 
   return (
-    <Toolbar className={classes.toolbar} disableGutters={true}>
-      <Typography
-        component="h2"
-        variant="h5"
-        color="inherit"
-        align="center"
-        noWrap
-      >
-        SWFL Coders
-      </Typography>
-      <SocialMedia />
-    </Toolbar>
+    <div className="header">
+      <Toolbar className={classes.toolbar} disableGutters={true}>
+        <Typography
+          component="h2"
+          variant="h5"
+          color="inherit"
+          align="center"
+          noWrap
+        >
+          SWFL Coders
+        </Typography>
+        <SocialMedia />
+      </Toolbar>
+    </div>
   )
 }
