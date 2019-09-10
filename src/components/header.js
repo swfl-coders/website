@@ -1,8 +1,8 @@
 import React from "react"
 import { makeStyles } from "@material-ui/core/styles"
 import Toolbar from "@material-ui/core/Toolbar"
-import Typography from "@material-ui/core/Typography"
 import SocialMedia from "./social_media"
+import CodersLogo from "../assets/svg-logos/coders-logo.svg"
 
 const useStyles = makeStyles(theme => ({
   toolbar: {
@@ -17,15 +17,7 @@ export default function Header() {
   return (
     <div className="header">
       <Toolbar className={classes.toolbar} disableGutters={true}>
-        <Typography
-          component="h2"
-          variant="h5"
-          color="inherit"
-          align="center"
-          noWrap
-        >
-          SWFL Coders
-        </Typography>
+        <CodersLogo />
         <SocialMedia />
       </Toolbar>
     </div>

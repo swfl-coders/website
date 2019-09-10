@@ -1,0 +1,14 @@
+.header {
+  // background-color: $primary;
+  @extend %primary-gradient;
+  padding: 0 2em;
+}
+
+// ==Overrides
+footer {
+  @extend %primary-gradient;
+}
+
+svg:hover {
+  color: white !important;
+}

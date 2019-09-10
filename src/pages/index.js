@@ -68,8 +68,8 @@ export default function Index({
   return (
     <React.Fragment>
       <CssBaseline />
+      <Header />
       <Container maxWidth="lg">
-        <Header />
         <Nav />
         <main>
           <Hero />
