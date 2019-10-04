@@ -45,11 +45,13 @@ export default function Meetups() {
                 }`}
               </Typography>
               <Typography variant="subtitle1" paragraph>
-                Venue: {meetup.venue.name}
+                Venue: {meetup.venue ? meetup.venue.name : "TBD"}
               </Typography>
               <Typography variant="subtitle1">
                 Address:{" "}
-                {`${meetup.venue.address_1} ${meetup.venue.city}, ${meetup.venue.zip}`}
+                {meetup.venue
+                  ? `${meetup.venue.address_1} ${meetup.venue.city}, ${meetup.venue.zip}`
+                  : "TBD"}
               </Typography>
             </CardContent>
           </div>
