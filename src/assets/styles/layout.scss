@@ -4,6 +4,14 @@
   padding: 0 2em;
 }
 
+.toolbar {
+  justify-content: space-between;
+  background: white;
+  &__button {
+    color: $primary !important;
+  }
+}
+
 // ==Overrides
 footer {
   @extend %primary-gradient;

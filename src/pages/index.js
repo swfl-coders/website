@@ -69,8 +69,8 @@ export default function Index({
     <React.Fragment>
       <CssBaseline />
       <Header />
+      <Nav />
       <Container maxWidth="lg">
-        <Nav />
         <main>
           <Hero />
           <Grid container spacing={5} className={classes.mainGrid}>
