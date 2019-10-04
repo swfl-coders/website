@@ -15,6 +15,7 @@ import Venues from "../components/venues"
 import Sponsors from "../components/sponsors"
 import OtherMeetupGroups from "../components/meetup_groups"
 import Footer from "../components/footer"
+import "../assets/styles/index.scss"
 
 const useStyles = makeStyles(theme => ({
   mainGrid: {
@@ -67,9 +68,9 @@ export default function Index({
   return (
     <React.Fragment>
       <CssBaseline />
+      <Header />
+      <Nav />
       <Container maxWidth="lg">
-        <Header />
-        <Nav />
         <main>
           <Hero />
           <Grid container spacing={5} className={classes.mainGrid}>
