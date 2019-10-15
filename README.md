@@ -11,7 +11,12 @@
 
 1.  **Pull down this repository.**
 
-    On terminal: `git clone https://github.com/digitaldrk/temp-swfl-coders.git`
+    On terminal:
+    For SSH
+    `git clone git@github.com:swfl-coders/website.git`
+
+    For HTTP
+    `git clone https://github.com/swfl-coders/website.git`
 
 2.  **Install Gatsby globally (if not installed yet).**
 
@@ -22,7 +27,7 @@
     Navigate into project and start up.
 
     ```sh
-    cd temp-swfl-coders
+    cd swfl-coders
     npm install
     gatsby develop
     ```
