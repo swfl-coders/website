@@ -1,0 +1,13 @@
+.company {
+  &__container {
+    padding-top: 2em;
+  }
+  &__details {
+    h3 {
+      color: $primary;
+    }
+  }
+  &__image {
+    height: 200px;
+  }
+}
