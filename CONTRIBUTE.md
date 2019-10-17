@@ -1,10 +1,10 @@
-# Contributing Guide 👩🏻‍💻👨‍💻
+# Contributing Guidelines 👩🏻‍💻👨🏻‍💻
 
 Thank you visiting and for your interest in collaborating to this project.
 
-Please visit our [issues page](https://github.com/swfl-coders/website/issues) for tasks we currently need help with. If you find an `issue` you would like to contribute, please comment on it, so others can see someone is already working on this. Please remember to make a reference to your `issue number` when you open your pull request.
+Please visit our [issues page](https://github.com/swfl-coders/website/issues) for tasks we currently need help with. If you find an **issue** you would like to contribute, please comment on it, so others can see someone is already working on this. Please remember to make a reference to your **issue number** when you open your pull request.
 
-If none of the issues you see is something you want to help, don't worry, you can still contribute. Just open a pull request and use the `enhancement` label.
+If none of the issues you see is something you want to help, don't worry, you can still contribute. Just open a pull request and use the **enhancement** label.
 
 ## GIT & GitHub
 
@@ -12,7 +12,9 @@ If none of the issues you see is something you want to help, don't worry, you ca
 
 - Don't `push` to master only `pull` from git
 - Branch names: lower-case with underscores separating words name it as close and brief to the feature you're creating like `script_folder` or simply `readme`
-- Commit messages: a sentence in present-tense with punctuation that gives a decent description of what was done. For example, something as simple as "Adds Readme file"
+- Commit messages: a sentence in present-tense with punctuation that gives a decent description of what was done. For example, something as simple as "Adds readme file"
+
+**IMPORTANT:** Please don't commit `package-lock.json` unless you added any packages to the project
 
 ### Workflow
 
