@@ -9,36 +9,36 @@
 
 ## 🚀 Getting started
 
-1.  **Pull down this repository.**
+1. **Pull down this repository.**
 
-    On terminal:
-    For SSH
-    `git clone git@github.com:swfl-coders/website.git`
+   On terminal:
+   For SSH
+   `git clone git@github.com:swfl-coders/website.git`
 
-    For HTTP
-    `git clone https://github.com/swfl-coders/website.git`
+   For HTTP
+   `git clone https://github.com/swfl-coders/website.git`
 
-2.  **Install Gatsby globally (if not installed yet).**
+2. **Install Gatsby globally (if not installed yet).**
 
-    On terminal: `npm i -g gatsby-cli`
+   On terminal: `npm i -g gatsby-cli`
 
-3.  **Start developing.**
+3. **Start developing.**
 
-    Navigate into project and start up.
+   Navigate into project and start up.
 
-    ```sh
-    cd swfl-coders
-    npm install
-    gatsby develop
-    ```
+   ```sh
+   cd swfl-coders
+   npm install
+   gatsby develop
+   ```
 
-    NOTE: Please don't commit `package-lock.json` unless you added any packages to the project
+   Your site is now running at [http://localhost:8000](http://localhost:8000)
 
-1)  **Open the source code and start editing!**
+   **NOTE:** _You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
-    Your site is now running at `http://localhost:8000`!
+4. **Contribute to this project**
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
+   To contribute, please read our [contributing guidelines](CONTRIBUTE.md)
 
 ## 🧐 What's inside?
 
