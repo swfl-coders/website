@@ -10,6 +10,8 @@
 ## 🚀 Getting started
 1. (Follow this great guide)[https://gist.github.com/Chaser324/ce0505fbed06b947d962]
 
+  FORK this repo first! Once forked to your own account...
+  
    On terminal:
    For SSH
    `git clone git@github.com:swfl-coders/website.git`
