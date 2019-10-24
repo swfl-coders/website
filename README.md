@@ -7,7 +7,7 @@
   This site was built with Gatsby's hello-world starter.
 </h1>
 
-## 🚀 Getting started
+## 🚀 Getting started the cool way
 
 1. **Pull down this repository.**
 
