@@ -8,7 +8,7 @@
 </h1>
 
 ## 🚀 Getting started
-1. (Follow this great guide)[https://gist.github.com/Chaser324/ce0505fbed06b947d962]
+1. [Follow this great guide](https://gist.github.com/Chaser324/ce0505fbed06b947d962)
 
    On terminal:
    For SSH
@@ -26,7 +26,7 @@
    Navigate into project and start up.
 
    ```sh
-   cd swfl-coders
+   cd website
    npm install
    gatsby develop
    ```
