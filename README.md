@@ -8,8 +8,7 @@
 </h1>
 
 ## 🚀 Getting started
-
-1. **Pull down this repository.**
+1. (Follow this great guide)[https://gist.github.com/Chaser324/ce0505fbed06b947d962]
 
    On terminal:
    For SSH
