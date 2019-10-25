@@ -12,6 +12,10 @@ import CompanyCard from "../components/company_card"
 const useStyles = makeStyles(theme => ({
   title: {
     textAlign: "center",
+    marginTop: "1em",
+  },
+  textField: {
+    margin: "3em",
   },
 }))
 
@@ -32,7 +36,7 @@ export default function CompanyDirectory({
         <Typography
           variant="h4"
           component="h2"
-          gutterBottom
+          gutterBottom={true}
           className={classes.title}
         >
           SWFL Company Directory
