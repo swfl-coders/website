@@ -32,6 +32,11 @@ const sponsors = [
     link: "https://www.jetbrains.com/",
     imageFileLink: "https://d2x6id2hredblr.cloudfront.net/images/jetbrains.png",
   },
+  {
+    companyName: "Postmark",
+    link: "https://postmarkapp.com/",
+    imageFileLink: "https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_b525b011e90d3114269420e49bc21911/postmark.png",
+  }
 ]
 
 export default function Sponsors() {
