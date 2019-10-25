@@ -9,8 +9,6 @@ import Typography from "@material-ui/core/Typography"
 import TextField from "@material-ui/core/TextField"
 import CompanyCard from "../components/company_card"
 
-//MuiContainer-fixed
-
 const useStyles = makeStyles(theme => ({
   title: {
     textAlign: "center",
