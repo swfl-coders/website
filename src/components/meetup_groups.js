@@ -74,7 +74,7 @@ export default function MeetupGroups() {
 
   return (
     <React.Fragment>
-      <Typography className={classes.title} variant="h4">
+      <Typography gutterBottom className={classes.title} variant="h4">
         Other SWFL Tech Groups And Meetups
       </Typography>
       <Grid container spacing={4} className={classes.cardGrid}>
