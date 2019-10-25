@@ -13,6 +13,7 @@ import Hero from "../components/hero"
 import Meetups from "../components/meetups"
 import Venues from "../components/venues"
 import Sponsors from "../components/sponsors"
+import { SocialMediaCallout } from "../components/social_media_callout"
 import OtherMeetupGroups from "../components/meetup_groups"
 import Footer from "../components/footer"
 import "../assets/styles/index.scss"
@@ -108,6 +109,9 @@ export default function Index({
           </section>
           <section className={classes.sectionSpacing}>
             <OtherMeetupGroups />
+          </section>
+          <section className={classes.sectionSpacing}>
+            <SocialMediaCallout source="slack" />
           </section>
         </main>
       </Container>
