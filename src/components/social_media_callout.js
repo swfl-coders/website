@@ -1,6 +1,5 @@
 import React from "react"
 import { makeStyles } from "@material-ui/core/styles"
-import Button from "@material-ui/core/Button"
 import Fab from "@material-ui/core/Fab"
 import MeetupIcon from "../assets/svg-logos/meetup-brands.svg"
 import SlackIcon from "../assets/svg-logos/slack-brands.svg"
