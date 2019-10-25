@@ -20,10 +20,19 @@ https://careers.arthrex.com/
 
 ### Technologies
 
-- C#
-- .Net core
-- TypeScript
-- Angular
-- Kotlin
-- AWS
-- Python
+- Salesforce
+- Aprimo  
+- Cvent
+- Sharepoint
+- SQL server
+- Active Directory
+- MS Exchange
+- ERP
+- SAP HCM
+- SAP SuccessFactors
+- PMP
+- Oracle
+- Microsoft certifications 
+- Java 
+- Selenium 
+
