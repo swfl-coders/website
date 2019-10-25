@@ -26,9 +26,9 @@ export default function CompanyDirectory({
   return (
     <React.Fragment>
       <CssBaseline />
+      <Header />
+      <Nav />
       <Container maxWidth="lg">
-        <Header />
-        <Nav />
         <Typography
           variant="h4"
           component="h2"
