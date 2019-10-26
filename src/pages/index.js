@@ -129,7 +129,7 @@ export default function Index({
           </section>
           <section className={classes.sectionSpacing}>
             <SocialMediaCallout source="slack" />
-            </section>
+          </section>
         </main>
       </Container>
       <Footer />
