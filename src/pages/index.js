@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 import { makeStyles } from "@material-ui/core/styles"
 import CssBaseline from "@material-ui/core/CssBaseline"
 import Nav from "../components/nav"
@@ -17,6 +17,8 @@ import { SocialMediaCallout } from "../components/social_media_callout"
 import OtherMeetupGroups from "../components/meetup_groups"
 import Footer from "../components/footer"
 import "../assets/styles/index.scss"
+import FetchJsonP from "fetch-jsonp"
+import MeetupCta from "../components/meetup_cta"
 
 const useStyles = makeStyles(theme => ({
   mainGrid: {
@@ -65,6 +67,20 @@ export default function Index({
     .map(edge => <CompanyCardPreview key={edge.node.id} company={edge.node} />)
 
   const companies = shuffle(companyQueryResults).slice(0, 3)
+  const [memberCount, setMemberCount] = useState(0)
+
+  useEffect(() => getMemberCount(), [])
+
+  function getMemberCount() {
+    FetchJsonP("https://api.meetup.com/SWFL-Coders/")
+      .then(function(response) {
+        return response.json()
+      })
+      .then(function(json) {
+        setMemberCount(json.data.members)
+      })
+  }
+
 
   return (
     <React.Fragment>
@@ -99,6 +115,7 @@ export default function Index({
                 Our Upcoming Meetups
               </Typography>
               <Meetups />
+              <MeetupCta memberCount={memberCount} />
             </Grid>
           </Grid>
           <section className={classes.sectionSpacing}>
@@ -112,7 +129,7 @@ export default function Index({
           </section>
           <section className={classes.sectionSpacing}>
             <SocialMediaCallout source="slack" />
-          </section>
+            </section>
         </main>
       </Container>
       <Footer />
