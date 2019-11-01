@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 import MeetupIcon from "../assets/svg-logos/meetup-brands.svg"
 import { makeStyles } from "@material-ui/core/styles"
 import Fab from "@material-ui/core/Fab"
@@ -10,13 +10,8 @@ const useStyles = makeStyles(theme => ({
     color: "black",
   },
   meetupCta: {
-    marginTop: "20px"
+    marginTop: "2em",
   },
-  memberCount: {
-    color: "white",
-    display: "flex",
-    whiteSpace: "pre"
-  }
 }))
 
 export default function MeetupCta(props) {
@@ -29,7 +24,7 @@ export default function MeetupCta(props) {
         className="socialmediacallout"
       >
         <MeetupIcon className={classes.socialmedianav} />
-        Join our<span className={classes.memberCount}> {props.memberCount} </span>members on Meetup
+        Join &nbsp;<strong> {props.memberCount} </strong>&nbsp;members
       </Fab>
     </div>
   )

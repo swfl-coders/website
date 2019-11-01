@@ -1,5 +1,4 @@
 .header {
-  // background-color: $primary;
   @extend %primary-gradient;
   padding: 0 2em;
 }
@@ -23,4 +22,8 @@ svg:hover {
 
 .socialmediacallout {
   @extend %primary-gradient;
+}
+
+.socialmediacallout:hover {
+  color: white;
 }

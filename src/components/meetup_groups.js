@@ -66,6 +66,7 @@ const useStyles = makeStyles(theme => ({
   },
   title: {
     textAlign: "center",
+    paddingBottom: "0.5em",
   },
 }))
 
@@ -75,7 +76,7 @@ export default function MeetupGroups() {
   return (
     <React.Fragment>
       <Typography gutterBottom className={classes.title} variant="h4">
-        Other SWFL Tech Groups And Meetups
+        Other Tech Groups and Meetups in SWFL
       </Typography>
       <Grid container spacing={4} className={classes.cardGrid}>
         {meetupGroups.map(meetupGroup => (
