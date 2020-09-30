@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-  This site was built with Gatsby's hello-world starter.
+  This amazing site was built with Gatsby's hello-world starter.
 </h1>
 
 ## 🚀 Getting started
