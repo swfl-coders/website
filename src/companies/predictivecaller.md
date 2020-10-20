@@ -1,7 +1,7 @@
 ---
-path: "/companies/predictivecaller"
+path: "/companies/predictive-caller"
 company_name: "Predictive Caller"
-company_logo: "http://predictivecaller.com/images/PClogo.png
+company_logo: "http://predictivecaller.com/images/PClogo.png"
 tech_stack: "Python, Django, AWS, PostgreSQL"
 city: "Fort Myers"
 ---
