@@ -23,6 +23,7 @@ export default function Meetups() {
         return response.json()
       })
       .then(function(json) {
+        debugger
         setMeetups(json.data)
       })
   }
@@ -48,10 +49,7 @@ export default function Meetups() {
                 Venue: {meetup.venue ? meetup.venue.name : "TBD"}
               </Typography>
               <Typography variant="subtitle1">
-                Address:{" "}
-                {meetup.venue
-                  ? `${meetup.venue.address_1} ${meetup.venue.city}, ${meetup.venue.zip}`
-                  : "TBD"}
+                {meetup.is_online_event ? 'Click to get Zoom Link' : `Address: ${meetup.venue.address_1} ${meetup.venue.city}, ${meetup.venue.zip}`}
               </Typography>
             </CardContent>
           </div>
