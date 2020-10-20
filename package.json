@@ -33,7 +33,6 @@
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
-    "@fortawesome/fontawesome-pro": "^5.9.0",
     "prettier": "^1.18.2"
   },
   "repository": {
