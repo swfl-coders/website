@@ -23,7 +23,6 @@ export default function Meetups() {
         return response.json()
       })
       .then(function(json) {
-        debugger
         setMeetups(json.data)
       })
   }
