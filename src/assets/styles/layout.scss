@@ -4,7 +4,7 @@
 }
 
 .toolbar {
-  justify-content: space-between;
+  justify-content: flex-start;
   background: white;
   &__button {
     color: $primary !important;
