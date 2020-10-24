@@ -33,15 +33,15 @@ export default function SocialMedia() {
     },
     {
       icon: <FacebookIcon className={classes.socialmedianav} />,
-      link: "https://github.com/swfl-coders",
-    },
-    {
-      icon: <TwitterIcon className={classes.socialmedianav} />,
       link: "https://www.facebook.com/SWFLCoders/",
     },
     {
-      icon: <GitHubIcon className={classes.socialmedianav} />,
+      icon: <TwitterIcon className={classes.socialmedianav} />,
       link: "https://twitter.com/SWFLCoders",
+    },
+    {
+      icon: <GitHubIcon className={classes.socialmedianav} />,
+      link: "https://github.com/swfl-coders",
     },
   ]
 

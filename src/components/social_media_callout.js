@@ -32,17 +32,17 @@ export function SocialMediaCallout(props) {
     },
     facebook: {
       icon: <FacebookIcon className={classes.socialmedianav} />,
-      link: "https://github.com/swfl-coders",
+      link: "https://www.facebook.com/SWFLCoders/",
       message: "Join us on Facebook",
     },
     twitter: {
       icon: <TwitterIcon className={classes.socialmedianav} />,
-      link: "https://www.facebook.com/SWFLCoders/",
+      link: "https://twitter.com/SWFLCoders",
       message: "Join us on Twitter",
     },
     github: {
       icon: <GitHubIcon className={classes.socialmedianav} />,
-      link: "https://twitter.com/SWFLCoders",
+      link: "https://github.com/swfl-coders",
       message: "Join us on Github",
     },
   }
