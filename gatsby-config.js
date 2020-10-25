@@ -32,5 +32,7 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-remark`,
     `gatsby-plugin-sass`,
+    `gatsby-transformer-json`,
+    `gatsby-plugin-react-helmet`
   ],
 }

@@ -19,6 +19,7 @@ import Footer from "../components/footer"
 import "../assets/styles/index.scss"
 import FetchJsonP from "fetch-jsonp"
 import MeetupCta from "../components/meetup_cta"
+import { Helmet } from "react-helmet"
 
 const useStyles = makeStyles(theme => ({
   mainGrid: {
@@ -86,6 +87,9 @@ export default function Index({
     <React.Fragment>
       <CssBaseline />
       <Header />
+      <Helmet>
+          <title>SWFL Coders - Home</title> 
+      </Helmet>
       <Nav />
       <Container maxWidth="lg">
         <main>
