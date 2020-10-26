@@ -31,6 +31,9 @@ export default function CompanyDirectory({
     <React.Fragment>
       <CssBaseline />
       <Header />
+      <Helmet>
+          <title>SWFL Coders - Company Directory</title> 
+      </Helmet>
       <Nav />
       <Container maxWidth="lg">
         <Typography
