@@ -25,7 +25,6 @@
     "gatsby-plugin-sass": "^2.1.13",
     "gatsby-plugin-sharp": "^2.2.9",
     "gatsby-source-filesystem": "^2.1.7",
-    "gatsby-transformer-json": "^2.4.15",
     "gatsby-transformer-remark": "^2.6.10",
     "gatsby-transformer-sharp": "^2.2.5",
     "markdown-to-jsx": "^6.10.2",

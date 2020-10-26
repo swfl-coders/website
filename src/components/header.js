@@ -3,6 +3,7 @@ import { makeStyles } from "@material-ui/core/styles"
 import Toolbar from "@material-ui/core/Toolbar"
 import SocialMedia from "./social_media"
 import CodersLogo from "../assets/svg-logos/coders-logo.svg"
+import { Helmet } from "react-helmet"
 
 const useStyles = makeStyles(theme => ({
   toolbar: {

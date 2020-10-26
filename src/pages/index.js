@@ -19,7 +19,6 @@ import Footer from "../components/footer"
 import "../assets/styles/index.scss"
 import FetchJsonP from "fetch-jsonp"
 import MeetupCta from "../components/meetup_cta"
-import { Helmet } from "react-helmet"
 
 const useStyles = makeStyles(theme => ({
   mainGrid: {
