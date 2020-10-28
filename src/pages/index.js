@@ -86,9 +86,6 @@ export default function Index({
     <React.Fragment>
       <CssBaseline />
       <Header />
-      <Helmet>
-          <title>SWFL Coders - Home</title> 
-      </Helmet>
       <Nav />
       <Container maxWidth="lg">
         <main>
