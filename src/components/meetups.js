@@ -27,7 +27,27 @@ export default function Meetups() {
       })
   }
 
-  if (meetups) {
+  if (meetups == null) {
+    return (
+      <Card className={classes.card}>
+        <div className={classes.cardDetails}>
+          <CardContent>
+            <Typography component="p">Loading...</Typography>
+          </CardContent>
+        </div>
+      </Card>
+    )
+  } else if (meetups.length == 0) {
+    return (
+      <Card className={classes.card}>
+        <div className={classes.cardDetails}>
+          <CardContent>
+            <Typography component="p">No meetups currently scheduled.</Typography>
+          </CardContent>
+        </div>
+      </Card>
+    )
+  } else {
     return meetups.map(meetup => (
       <CardActionArea
         key={meetup.created}
@@ -55,7 +75,5 @@ export default function Meetups() {
         </Card>
       </CardActionArea>
     ))
-  } else {
-    return <h3>Loading...</h3>
   }
 }
