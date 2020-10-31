@@ -8,6 +8,7 @@ import Nav from "../components/nav"
 import Typography from "@material-ui/core/Typography"
 import TextField from "@material-ui/core/TextField"
 import CompanyCard from "../components/company_card"
+import { Helmet } from "react-helmet"
 
 const useStyles = makeStyles(theme => ({
   title: {
@@ -32,7 +33,7 @@ export default function CompanyDirectory({
       <CssBaseline />
       <Header />
       <Helmet>
-          <title>SWFL Coders - Company Directory</title> 
+          <title>SWFL Coders - Company Directory</title>
       </Helmet>
       <Nav />
       <Container maxWidth="lg">
