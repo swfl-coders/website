@@ -6,6 +6,7 @@ import SlackIcon from "../assets/svg-logos/slack-brands.svg"
 import FacebookIcon from "../assets/svg-logos/facebook-f-brands.svg"
 import GitHubIcon from "../assets/svg-logos/github-brands.svg"
 import TwitterIcon from "../assets/svg-logos/twitter-brands.svg"
+import YouTubeIcon from "../assets/svg-logos/youtube-brands.svg"
 
 const useStyles = makeStyles(theme => ({
   socialMedia: {
@@ -42,6 +43,10 @@ export default function SocialMedia() {
     {
       icon: <GitHubIcon className={classes.socialmedianav} />,
       link: "https://github.com/swfl-coders",
+    },
+    {
+      icon: <YouTubeIcon className={classes.socialmedianav} />,
+      link: "https://www.youtube.com/channel/UCddevqVraYVVQHJTbPTf5oA",
     },
   ]
 
