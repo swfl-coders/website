@@ -19,9 +19,9 @@ export default function Header() {
     <div className="header">
       <Toolbar className={classes.toolbar} disableGutters={true}>
       <Helmet>
-          <title>SWFL Coders</title> 
+          <title>SWFL Coders</title>
       </Helmet>
-        <CodersLogo />
+        <a href="/"><CodersLogo /></a>
         <SocialMedia />
       </Toolbar>
     </div>
