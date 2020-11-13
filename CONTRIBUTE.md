@@ -22,7 +22,11 @@ If none of the issues you see is something you want to help, don't worry, you ca
 
 1. You will need to 'Fork' this repository to your account
 2. Next you will need to 'Clone' your fork to your computer
-2. PULL to make sure you have the most fresh copy. Use `git pull`
+2. To sync the latest from the upstream (swflcoders project)
+    * Add upstream: `git remote add upstream https://github.com/whoever/whatever.git`
+    * Get latest from upstream: `git fetch upstream`
+    * Checkout master branch: `git checkout master`
+    * Bring in latest changes from upstream into your master branch: `git rebase upstream/master`
 3. Create a new branch `git checkout -b name_of_feature_branch`
 4. Code stuff 🙃
 5. `git add .`
