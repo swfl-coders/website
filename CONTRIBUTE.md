@@ -20,17 +20,21 @@ If none of the issues you see is something you want to help, don't worry, you ca
 
 🚀*Remember, it's just a web page, we can fix anything. Go crazy and ship code!*
 
-After pulling down this repository you will land on the `master` branch
-
-1. PULL to make sure you have the most fresh copy. Use `git pull`
-2. Create a new branch `git checkout -b name_of_feature_branch`
-3. Code stuff 🙃
-4. `git add .`
-5. `git commit -m "Adds cool feature and closes #2"` (assuming you are working on `issue #2`)
-6. `git push origin name_of_feature_branch`
-7. Create a PR (pull request) in GitHub and tag an organizer for code review
-8. Teammate/organizer leaves comments and/or merges your code
-9. Feature branch deleted once successfully merged into GitHub master
+1. You will need to 'Fork' this repository to your account
+2. Next you will need to 'Clone' your fork to your computer
+2. To sync the latest from the upstream (swflcoders project)
+    * Add upstream: `git remote add upstream https://github.com/whoever/whatever.git`
+    * Get latest from upstream: `git fetch upstream`
+    * Checkout master branch: `git checkout master`
+    * Bring in latest changes from upstream into your master branch: `git rebase upstream/master`
+3. Create a new branch `git checkout -b name_of_feature_branch`
+4. Code stuff 🙃
+5. `git add .`
+6. `git commit -m "Adds cool feature and closes #2"` (assuming you are working on `issue #2`)
+7. `git push origin name_of_feature_branch`
+8. Create a PR (pull request) in GitHub and tag an organizer for code review
+9. Teammate/organizer leaves comments and/or merges your code
+10. Feature branch deleted once successfully merged into GitHub master
 
 ### Helpful Git Commands
 
