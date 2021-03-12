@@ -7,6 +7,12 @@
   This site was built with Gatsby's hello-world starter.
 </h1>
 
+
+Cool readme changes
+
+another cool change
+
+
 ## 🚀 Getting started @ SWFLCoders
 1. [Follow this great guide](https://gist.github.com/Chaser324/ce0505fbed06b947d962)
 
