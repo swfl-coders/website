@@ -37,6 +37,8 @@
 
    **NOTE:** _You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
+   **NOTE:**  _If you are receiving build errors after running _`npm install`_, your environment may have to be setup to build popular native Node.js modules that Gatsby uses. To learn more about setting up your build environment for your system, read the documentation under the **Additional Guides** section on [Gatsby](https://www.gatsbyjs.com/docs/how-to/local-development/#additional)._
+
 4. **Contribute to this project**
 
    To contribute, please read our [contributing guidelines](CONTRIBUTE.md)
