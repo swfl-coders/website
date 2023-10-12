@@ -27,7 +27,7 @@ const useStyles = makeStyles(theme => ({
 const contactLinks = [
   {
     title: "Contact Us @ swflcoders@gmail.com",
-    url: "mailto:swflcoders@gmail.com?subject=Site Inquiry",
+    url: "https://www.meetup.com/swfl-coders/members/?op=leaders",
   },
   {
     title: "Team",
