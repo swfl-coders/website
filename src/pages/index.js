@@ -18,6 +18,7 @@ import Footer from "../components/footer"
 import "../assets/styles/index.scss"
 import FetchJsonP from "fetch-jsonp"
 import MeetupCta from "../components/meetup_cta"
+import { graphql } from "gatsby"
 
 const useStyles = makeStyles(theme => ({
   mainGrid: {
