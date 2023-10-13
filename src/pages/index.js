@@ -12,7 +12,6 @@ import Header from "../components/header"
 import Hero from "../components/hero"
 import Meetups from "../components/meetups"
 import Venues from "../components/venues"
-import Sponsors from "../components/sponsors"
 import { SocialMediaCallout } from "../components/social_media_callout"
 import OtherMeetupGroups from "../components/meetup_groups"
 import Footer from "../components/footer"
@@ -123,9 +122,6 @@ export default function Index({
           </Grid>
           <section className={classes.sectionSpacing}>
             <Venues className={classes.sectionSpacing} />
-          </section>
-          <section className={classes.sectionSpacing}>
-            <Sponsors />
           </section>
           <section className={classes.sectionSpacing}>
             <OtherMeetupGroups />
