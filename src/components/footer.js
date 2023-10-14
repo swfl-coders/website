@@ -1,8 +1,8 @@
 import React from "react"
-import { makeStyles } from "@material-ui/core/styles"
-import Container from "@material-ui/core/Container"
-import Typography from "@material-ui/core/Typography"
-import Link from "@material-ui/core/Link"
+import { makeStyles } from "@mui/styles"
+import Container from "@mui/material/Container"
+import Typography from "@mui/material/Typography"
+import Link from "@mui/material/Link"
 import SocialMedia from "../components/social_media"
 
 const useStyles = makeStyles(theme => ({

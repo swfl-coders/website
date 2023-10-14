@@ -1,12 +1,14 @@
 import React from "react"
-import { makeStyles } from "@material-ui/core/styles"
-import Grid from "@material-ui/core/Grid"
-import CssBaseline from "@material-ui/core/CssBaseline"
-import Container from "@material-ui/core/Container"
+import { graphql } from 'gatsby'
+import { makeStyles } from "@mui/styles"
+import { Helmet } from "react-helmet"
+import Grid from "@mui/material/Grid"
+import CssBaseline from "@mui/material/CssBaseline"
+import Container from "@mui/material/Container"
 import Header from "../components/header"
 import Nav from "../components/nav"
-import Typography from "@material-ui/core/Typography"
-import TextField from "@material-ui/core/TextField"
+import Typography from "@mui/material/Typography"
+import TextField from "@mui/material/TextField"
 import CompanyCard from "../components/company_card"
 
 const useStyles = makeStyles(theme => ({

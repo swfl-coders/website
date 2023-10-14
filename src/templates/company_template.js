@@ -1,7 +1,7 @@
 import React from "react"
-import Container from "@material-ui/core/Container"
-import Typography from "@material-ui/core/Typography"
-import CardMedia from "@material-ui/core/CardMedia"
+import Container from "@mui/material/Container"
+import Typography from "@mui/material/Typography"
+import CardMedia from "@mui/material/CardMedia"
 import { graphql } from "gatsby"
 
 export default function CompanyTemplate({ data }) {

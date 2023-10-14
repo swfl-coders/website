@@ -1,8 +1,8 @@
 import React from "react"
-import { makeStyles } from "@material-ui/core/styles"
-import Link from "@material-ui/core/Link"
-import Typography from "@material-ui/core/Typography"
-import Grid from "@material-ui/core/Grid"
+import { makeStyles } from "@mui/styles"
+import Link from "@mui/material/Link"
+import Typography from "@mui/material/Typography"
+import Grid from "@mui/material/Grid"
 
 const useStyles = makeStyles(theme => ({
   image: {

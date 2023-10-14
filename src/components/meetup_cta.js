@@ -1,7 +1,7 @@
 import React from "react"
 import MeetupIcon from "../assets/svg-logos/meetup-brands.svg"
-import { makeStyles } from "@material-ui/core/styles"
-import Fab from "@material-ui/core/Fab"
+import { makeStyles } from "@mui/styles"
+import Fab from "@mui/material/Fab"
 
 const useStyles = makeStyles(theme => ({
   socialmedianav: {

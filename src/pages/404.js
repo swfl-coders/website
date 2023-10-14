@@ -1,5 +1,6 @@
 import React from "react"
 import Footer from "../components/footer"
+import { Helmet } from "react-helmet"
 
 export default () => (
   <React.Fragment>

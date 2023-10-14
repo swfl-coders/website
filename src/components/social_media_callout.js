@@ -1,6 +1,6 @@
 import React from "react"
-import { makeStyles } from "@material-ui/core/styles"
-import Fab from "@material-ui/core/Fab"
+import { makeStyles } from "@mui/styles"
+import Fab from "@mui/material/Fab"
 import MeetupIcon from "../assets/svg-logos/meetup-brands.svg"
 import SlackIcon from "../assets/svg-logos/slack-brands.svg"
 import FacebookIcon from "../assets/svg-logos/facebook-f-brands.svg"
