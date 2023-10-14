@@ -25,8 +25,8 @@ export default function CompanyTemplate({ data }) {
   )
 }
 export const pageQuery = graphql`
-  query($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
+  query($ppath: String!) {
+    markdownRemark(frontmatter: { path: { eq: $ppath } }) {
       html
       frontmatter {
         path
