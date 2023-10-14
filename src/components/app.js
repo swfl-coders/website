@@ -67,9 +67,6 @@ export default function App({ companies, memberCount }) {
                     <Venues className={classes.sectionSpacing} />
                 </section>
                 <section className={classes.sectionSpacing}>
-                    <Sponsors />
-                </section>
-                <section className={classes.sectionSpacing}>
                     <OtherMeetupGroups />
                 </section>
                 <section className={classes.sectionSpacing}>
