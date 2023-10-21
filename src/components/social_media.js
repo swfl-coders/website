@@ -13,10 +13,12 @@ const useStyles = makeStyles(theme => ({
     display: "flex",
     justifyContent: "space-between",
     width: "165px",
+    marginRight: "25px"
   },
   socialmedianav: {
     height: "30px",
     color: "black",
+    marginLeft: "5px"
   },
 }))
 

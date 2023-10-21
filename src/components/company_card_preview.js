@@ -15,11 +15,14 @@ const useStyles = makeStyles(theme => ({
     display: "flex",
     alignItems: "center",
     justifyContent: "space-between",
+    marginBottom: '10px',
+    backgroundColor: 'white!important'
   },
   cardMedia: {
     height: 65,
-    width: "auto",
+    width: "25%!important",
     margin: "10px",
+    objectFit: 'scale-down!important'
   },
 }))
 

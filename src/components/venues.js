@@ -47,7 +47,7 @@ export default function Venues() {
       <Grid
         container
         alignItems="center"
-        justify="space-around"
+        justifyContent="space-around"
         className={classes.mainGrid}
       >
         {venues.map(venue => (

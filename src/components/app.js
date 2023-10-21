@@ -24,7 +24,7 @@ const useStyles = makeStyles(theme => ({
     },
     companyButton: {
       width: "100%",
-      padding: "30px",
+      padding: "30px!important",
     },
 }))
 

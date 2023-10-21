@@ -54,8 +54,9 @@ const useStyles = makeStyles(theme => ({
   },
   cardMedia: {
     height: 65,
-    width: "auto",
     margin: "10px",
+    width: "25%!important",
+    objectFit: 'scale-down!important'
   },
   cardLink: {
     height: "100%",

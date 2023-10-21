@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from 'gatsby'
 import { makeStyles } from "@mui/styles"
+import { ThemeProvider, createTheme } from "@mui/material/styles"
 import { Helmet } from "react-helmet"
 import Grid from "@mui/material/Grid"
 import CssBaseline from "@mui/material/CssBaseline"
@@ -28,40 +29,49 @@ export default function CompanyDirectory({
 }) {
   const classes = useStyles()
   const companyQueryResults = edges.filter(edge => !!edge.node.frontmatter.path)
+  const theme = createTheme({
+    palette: {
+      background: {
+        default: "#fafafa",
+      },
+    },
+  })
 
   return (
     <React.Fragment>
-      <CssBaseline />
-      <Header />
-      <Helmet>
-          <title>SWFL Coders - Company Directory</title> 
-      </Helmet>
-      <Nav />
-      <Container maxWidth="lg">
-        <Typography
-          variant="h4"
-          component="h2"
-          gutterBottom={true}
-          className={classes.title}
-        >
-          SWFL Company Directory
-        </Typography>
-        <TextField
-          label="Search"
-          placeholder="Search"
-          className={classes.textField}
-          margin="normal"
-          variant="outlined"
-          fullWidth
-        />
-        <Grid container className={classes.root} justify="center" spacing={3}>
-          {companyQueryResults.map(company => (
-            <Grid key={company.node.id} item>
-              <CompanyCard company={company} />
-            </Grid>
-          ))}
-        </Grid>
-      </Container>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <Header />
+        <Helmet>
+            <title>SWFL Coders - Company Directory</title> 
+        </Helmet>
+        <Nav />
+        <Container maxWidth="lg">
+          <Typography
+            variant="h4"
+            component="h2"
+            gutterBottom={true}
+            className={classes.title}
+          >
+            SWFL Company Directory
+          </Typography>
+          <TextField
+            label="Search"
+            placeholder="Search"
+            className={classes.textField}
+            margin="normal"
+            variant="outlined"
+            fullWidth
+          />
+          <Grid container className={classes.root} justify="center" spacing={3}>
+            {companyQueryResults.map(company => (
+              <Grid key={company.node.id} item>
+                <CompanyCard company={company} />
+              </Grid>
+            ))}
+          </Grid>
+        </Container>
+      </ThemeProvider>
     </React.Fragment>
   )
 }

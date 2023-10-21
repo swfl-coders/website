@@ -36,7 +36,13 @@ export default function Index({
     allMarkdownRemark: { edges },
   },
 }) {
-  const theme = createTheme()
+  const theme = createTheme({
+    palette: {
+      background: {
+        default: "#fafafa",
+      },
+    },
+  })
 
   const companyQueryResults = edges
     .filter(edge => !!edge.node.frontmatter.path)
