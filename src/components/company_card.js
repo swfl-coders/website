@@ -1,12 +1,12 @@
 import React from "react"
-import { makeStyles } from "@material-ui/core/styles"
-import Card from "@material-ui/core/Card"
-import CardHeader from "@material-ui/core/CardHeader"
-import CardMedia from "@material-ui/core/CardMedia"
-import CardContent from "@material-ui/core/CardContent"
-import Typography from "@material-ui/core/Typography"
-import { red } from "@material-ui/core/colors"
-import CardActionArea from "@material-ui/core/CardActionArea"
+import { makeStyles } from "@mui/styles"
+import Card from "@mui/material/Card"
+import CardHeader from "@mui/material/CardHeader"
+import CardMedia from "@mui/material/CardMedia"
+import CardContent from "@mui/material/CardContent"
+import Typography from "@mui/material/Typography"
+import { red } from "@mui/material/colors"
+import CardActionArea from "@mui/material/CardActionArea"
 
 const useStyles = makeStyles(theme => ({
   card: {

@@ -1,6 +1,6 @@
 import React from "react"
-import Link from "@material-ui/core/Link"
-import { makeStyles } from "@material-ui/core/styles"
+import Link from "@mui/material/Link"
+import { makeStyles } from "@mui/styles"
 import MeetupIcon from "../assets/svg-logos/meetup-brands.svg"
 import SlackIcon from "../assets/svg-logos/slack-brands.svg"
 import FacebookIcon from "../assets/svg-logos/facebook-f-brands.svg"
@@ -13,10 +13,12 @@ const useStyles = makeStyles(theme => ({
     display: "flex",
     justifyContent: "space-between",
     width: "165px",
+    marginRight: "25px"
   },
   socialmedianav: {
     height: "30px",
     color: "black",
+    marginLeft: "5px"
   },
 }))
 
