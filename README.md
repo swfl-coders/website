@@ -11,7 +11,7 @@
 1. [Follow this great guide](https://gist.github.com/Chaser324/ce0505fbed06b947d962)
 
   FORK this repo first! Once forked to your own account...
-  
+
    On terminal:
    For SSH
    `git clone git@github.com:swfl-coders/website.git`
@@ -91,32 +91,6 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 - **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
 
 - **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
-
-## Using Project images
-
-Here is an example of using queries in a non-page component, you have to use the `<StaticQuery />` component
-
-```
-import Img from "gatsby-image"
-import { graphql, StaticQuery } from "gatsby"
-
-    <StaticQuery
-      query={graphql`
-        query {
-          file(relativePath: { eq: "swfrtp-logo.png" }) {
-            childImageSharp {
-              fluid(maxWidth: 50) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-        }
-      `}
-      render={data => (
-        <Img fluid={data.file.childImageSharp.fluid} />
-      )}
-    />
-```
 
 ## 💫 Deploy
 
